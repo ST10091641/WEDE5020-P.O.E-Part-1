@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | For The People — Garden Maintenance & Community Farming</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+<body>
+
+
+<header class="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            <h2>🌱 For The People</h2>
+            <p>Garden Maintenance · Food Justice</p>
+         <header>
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="enquiry.html">Get Involved</a>
+            <a href="contact.html">Contact</a>
+        </header>
+</header>
+
+<main>
+   
+    <div class="page-header">
+        <div class="container">
+            <h1>Let’s Grow Together 🌍</h1>
+            <p>Reach out to our community hubs, ask about garden workshops, or simply say hello. We have multiple locations to serve you better.</p>
+        </div>
+    </div>
+
+   
+    <div class="locations-section">
+        <div class="container">
+            <h2 class="section-title">🌿 Our Garden Hubs</h2>
+            <p class="section-sub">Visit one of our community-driven spaces — each location offers hands-on gardening support, soil testing, and volunteer opportunities.</p>
+            <div class="locations-grid">
+               
+                <div class="location-card">
+                    <div class="location-icon">
+                        <i class="fas fa-city"></i>
+                    </div>
+                    <h3>Johannesburg Hub</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 12 Smit Street, Braamfontein, JHB</p>
+                    <p><i class="fas fa-phone-alt"></i> +27 11 234 5678</p>
+                    <p><i class="fas fa-envelope"></i> jhb@forthepeople.garden</p>
+                    <p><i class="fas fa-clock"></i> Mon–Fri: 9am–5pm | Sat: 10am–2pm</p>
+                    <div class="hr-divider"></div>
+                    <small><i class="fas fa-seedling"></i> Demonstration food forest & compost demo site</small>
+                </div>
+               
+                <div class="location-card">
+                    <div class="location-icon">
+                        <i class="fas fa-umbrella-beach"></i>
+                    </div>
+                    <h3>Cape Town Hub</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 45 Lansdowne Road, Khayelitsha, CPT</p>
+                    <p><i class="fas fa-phone-alt"></i> +27 21 987 6543</p>
+                    <p><i class="fas fa-envelope"></i> cpt@forthepeople.garden</p>
+                    <p><i class="fas fa-clock"></i> Mon–Fri: 8am–4pm | Sat: 9am–1pm</p>
+                    <div class="hr-divider"></div>
+                    <small><i class="fas fa-water"></i> Rainwater harvesting & indigenous garden</small>
+                </div>
+                
+                <div class="location-card">
+                    <div class="location-icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <h3>Durban Mobile Unit</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 89 Florida Road, Morningside, DBN</p>
+                    <p><i class="fas fa-phone-alt"></i> +27 31 456 7890</p>
+                    <p><i class="fas fa-envelope"></i> dbn@forthepeople.garden</p>
+                    <p><i class="fas fa-clock"></i> By appointment (community workshops)</p>
+                    <div class="hr-divider"></div>
+                    <small><i class="fas fa-truck"></i> Mobile garden advisory every Wednesday</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-form-section">
+        <div class="container">
+            <div class="form-wrapper">
+                <div class="form-header">
+                    <h2><i class="fas fa-paper-plane"></i> Send us a message</h2>
+                    <p>We’d love to hear from you — whether it’s a question, partnership idea, or garden support request.</p>
+                </div>
+               
+                <form id="contactForm" action="#" method="post">
+                    <div class="form-group">
+                        <label for="fullname">Full Name <span class="required-star">*</span></label>
+                        <input type="text" id="fullname" name="fullname" required placeholder="e.g., Thabo Nkosi">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address <span class="required-star">*</span></label>
+                        <input type="email" id="email" name="email" required placeholder="hello@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+27 12 345 6789">
+                    </div>
+                    <div class="form-group">
+                        <label for="location_select">Preferred Location</label>
+                        <select id="location_select" name="location">
+                            <option value="Johannesburg">Johannesburg Hub</option>
+                            <option value="Cape Town">Cape Town Hub</option>
+                            <option value="Durban">Durban Mobile Unit</option>
+                            <option value="other">Other / Online</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="e.g., Workshop inquiry, Volunteer, Sponsorship">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message <span class="required-star">*</span></label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell us how we can help or which garden initiative you're interested in..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit"><i class="fas fa-leaf"></i> Send Message</button>
+                    <div class="form-footer-note">
+                        <i class="fas fa-lock"></i> We respect your privacy. Your info stays safe.
+                    </div>
+                </form>
+                
+                <div id="formStatusMessage" style="margin-top: 20px; text-align: center; font-weight: 500;"></div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="container" style="text-align: center; padding-bottom: 40px;">
+        <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <p style="margin-top: 20px; color: #6b5b4b;"><i class="fas fa-map-pin"></i> Find us at any of our three garden hubs — we run weekly open gardening days!</p>
+    </div>
+</main>
+
+<footer>
+    <p>© 2026 For The People — Cultivating healthy communities, sustainably.</p>
+    <p style="margin-top: 10px;"><i class="fas fa-envelope"></i> hello@forthepeople.garden | <i class="fas fa-phone-alt"></i> +27 (0) 21 001 2345</p>
+</footer>
